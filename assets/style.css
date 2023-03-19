@@ -50,7 +50,7 @@ a{
 #cir{
   background-color: rgba(163, 157, 252, 0.5);
   border-radius: 50px;
-  margin: auto;
+  margin: auto 10px;
   justify-content: center;
   display : none;
 }
