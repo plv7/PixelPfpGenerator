@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="/assets/script.js"></script>
+    <link href="/assets/img/logo.svg" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>PixelGenerator.io</title>
+  </head>
+    <body>
+        <h1>PixelGenerator.io</h1>
+        <div class="container">
+            <p class="pres">Generate your own <strong>Pixel profile picture</strong> to discover Internet! </p>
+                    
+                <a onclick="randUrl(), fetchPhotos()"><button type="button" id="feur">Generate Random Pixel</button></a>        
+                    
+                    <div class="row">              
+                        <div id="cir">     
+                        <div class="col-md-3"> 
+                                <img id="MyPix"></img>
+                                <p id="randNb"></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a onclick="downloadSvgPixel(url)" id="feur3"><button type="button" id="feur2">Download your pixel</button></a>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="modify">
+                                <p>Choose your hair color</p>
+                                <input type="checkbox" id="black" onclick="black()">black <br>
+                                <input type="checkbox" id="white"onclick="white()">white <br>
+                                <input type="checkbox" id="red" onclick="red()">red <br>
+                                <input type="checkbox" id="blue" onclick="blue()">blue <br>
+                                <input type="checkbox" id="green" onclick="green()">green <br>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div id="modify">
+                                <p>Choose your skin color</p>
+                                <input type="checkbox" id="blackS" onclick="blackS()">Black <br>
+                                <input type="checkbox" id="metisseS"onclick="metisseS()">Black Metisse <br>
+                                <input type="checkbox" id="metisseS2" onclick="metisseS2()">Metisse <br>
+                                <input type="checkbox" id="metisseS3" onclick="metisseS3()">Clear Metisse <br>
+                                <input type="checkbox" id="clear" onclick="clear()">Clear <br>
+                                <input type="checkbox" id="albinos" onclick="albinos()">Albinos <br>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </body>
+</html>
