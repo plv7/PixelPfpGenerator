@@ -1,4 +1,4 @@
-@font-face {font-family: 'Joystix'; src: url('/assets/font/joystix/Typodermic/Joystix™/joystix\ monospace.otf');
+@font-face {font-family: 'Joystix'; src: url('font/joystix/Typodermic/Joystix™/joystix\ monospace.otf');
 }
 
 html {
@@ -17,7 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     background-size:cover;
-    background-image: url('/assets/img/cyber.gif');
+    background-image: url('img/cyber.gif');
 }
 
 .container{
